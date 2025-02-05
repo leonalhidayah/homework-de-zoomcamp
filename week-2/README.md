@@ -48,7 +48,7 @@ c. 1,734,051
 select count(*) from green_tripdata;
 
 ## no 5
-d. 1,925,152
+c. 1,925,152
 - go to trigger
 - fill start date 01 march 2020
 - fill end date 31 march 2020
