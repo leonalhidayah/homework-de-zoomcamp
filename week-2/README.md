@@ -16,12 +16,14 @@ id: purge_files
 ## no 2
 b. green_tripdata_2020-04.csv
 
+``` yaml
 variables:
   file: "{{inputs.taxi}}_tripdata_{{inputs.year}}-{{inputs.month}}.csv"
+```
 
-replace {{inputs.taxi}} with green
-replace {{inputs.year}} with 2020
-replace {{inputs.month}} with 04
+- replace {{inputs.taxi}} with green
+- replace {{inputs.year}} with 2020
+- replace {{inputs.month}} with 04
 
 ## no 3
 b. 24,648,499
