@@ -85,7 +85,11 @@ WHERE DATE(tpep_dropoff_datetime) BETWEEN '2024-03-01' AND '2024-03-15';
 ## no 7
 c. GCP Bucket
 
+When you create an External Table in BigQuery, you are essentially creating a reference to data that resides outside of BigQuery, typically in a Google Cloud Storage (GCS) bucket. BigQuery does not store the data itself; it only reads the data directly from the GCS bucket when queries are executed.
+
 ## no 8
 a. False
+
+it's because for small datasets, the performance gains from clustering may be negligible.
 
 
