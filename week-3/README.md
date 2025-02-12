@@ -35,9 +35,12 @@ SELECT COUNT(*) FROM kestra-project-449609.nytaxi.external_yellow_tripdata;
 ## no 2
 b. 0 MB for the External Table and 155.12 MB for the Materialized Table
 
-- above, it is not the same size of materialize table. materialize table has a size 2.72GB and external table has size 0 MB. it's 0 because external table refereing into gcs that the actual data store,
-- go to the detail information of each table
-- we can see in Total logical bytes
+``` sql
+-- estimated 155.12 MB of data
+SELECT DISTINCT(PULocationID) FROM kestra-project-449609.nytaxi.yellow_tripdata_2024;
+-- estimated 0 MB of data
+SELECT DISTINCT(PULocationID) FROM kestra-project-449609.nytaxi.external_yellow_tripdata;
+```
 
 
 ## no 3
