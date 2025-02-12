@@ -68,6 +68,13 @@ WHERE DATE(tpep_pickup_datetime) BETWEEN '2019-06-01' AND '2020-12-31'
   AND VendorID=1;
 
 
+-- no 2
+-- estimated 155.12 MB of data
+SELECT DISTINCT(PULocationID) FROM kestra-project-449609.nytaxi.yellow_tripdata_2024;
+
+SELECT DISTINCT(PULocationID) FROM kestra-project-449609.nytaxi.external_yellow_tripdata;
+
+
 -- no 3
 -- Scanning 155.12 MB of data
 SELECT PULocationID from kestra-project-449609.nytaxi.yellow_tripdata_2024;
