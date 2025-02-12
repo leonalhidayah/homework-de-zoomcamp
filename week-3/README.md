@@ -86,6 +86,6 @@ WHERE DATE(tpep_dropoff_datetime) BETWEEN '2024-03-01' AND '2024-03-15';
 c. GCP Bucket
 
 ## no 8
-a. True
+a. False
 
 
