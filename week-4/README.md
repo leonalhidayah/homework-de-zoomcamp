@@ -29,3 +29,7 @@ because it run all model in staging folder while fct_taxi_monthly_zone_revenue m
 ## no 4
 all the answer are true except Setting a value for DBT_BIGQUERY_STAGING_DATASET env var is mandatory, or it'll fail to compile.
 because the macro provides a fallback to DBT_BIGQUERY_TARGET_DATASET if DBT_BIGQUERY_STAGING_DATASET is not set.
+
+
+i'm sorry datatalks and team i can't answer about Serious SQL, it's too hard for me as a new in this field.
+thanks u very much
